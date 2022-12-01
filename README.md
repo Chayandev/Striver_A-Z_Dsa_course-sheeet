@@ -1,4 +1,4 @@
-# Striver_A-Z_Dsa_course-sheeet
+# Striver_A-Z_Dsa_course-sheet
 Strivers A-Z DSA Course/Sheet , to start my DSA Journy.
 
 **STEP-1**
