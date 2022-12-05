@@ -25,7 +25,7 @@ S3.2 -> Array Medium
 S3.3 -> Array Hard
 
 **STEP-4**
- Binary Search [1D, 2D Arrays, Search Space]
+ #Binary Search [1D, 2D Arrays, Search Space]
  
  S4.1 -> Learning BS on 1D Arrays
  
