@@ -4,6 +4,8 @@
 
 **STEP-1**
 
+## Learn the basics
+
 S1.1 - >Build of Logical Thinking - (With variuous types of patterns)
 
 S1.2 -> Basic Math
@@ -13,6 +15,8 @@ S1.3 -> Basic Recursion
 S1.4 -> Basic Hashing
 
 **STEP-2**
+
+## Learn Important Sorting Techniques
 
 S2.1 -> Importent Sorting Algorithm.
 
