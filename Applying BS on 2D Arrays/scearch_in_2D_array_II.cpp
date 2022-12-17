@@ -27,7 +27,7 @@ int main()
 {
       int n, m, i, j, target;
       cin >> n >> m;
-      vector<vector<int>> v;
+      vector<vector<int>> v(n,vector<int>(m));
       int ele;
       for (i = 0; i < n; i++)
       {
