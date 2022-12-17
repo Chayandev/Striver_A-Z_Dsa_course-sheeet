@@ -47,6 +47,29 @@ public:
         return arr[i]+(k-count);
     }
 };
+
+//Approch-2
+/*
+TC-O(log(n))
+SC-O(1)
+*/
+/*
+ if(arr.size()==0 || arr[0]>k)
+        return k;
+        int right=arr.size()-1;
+        if(arr[right]-(right+1)<k)
+        return arr[right]+(k-(arr[right]-(right+1)));
+        int left=1;
+        while(left<=right){
+           int mid=left+(right-left)/2;
+           if(arr[mid]-(mid+1)<k)
+           left=mid+1;
+           else
+           right=mid-1;
+        }
+        return arr[right]+(k-(arr[right]-(right+1)));
+    }
+*/
 int main(){
       int n,k;
       cin>>n;
