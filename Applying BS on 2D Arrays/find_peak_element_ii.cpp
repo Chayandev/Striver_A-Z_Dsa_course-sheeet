@@ -53,7 +53,7 @@ int main()
 {
     int n, m, i, j;
     cin >> n >> m;
-    vector<vector<int>> v;
+    vector<vector<int>> v(n,vector<int>(m));
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < m; i++)
