@@ -35,3 +35,18 @@ S3.3 -> *Array Hard*
  s4.2 -> *Applying BS on 2D Arrays*
  
  s4.3 -> *Find Answers by BS in Search Space*
+ 
+ >**STEP-5**
+## Linked List(Singly & Doubly)
+ 
+ s5.1 -> *Learn 1D LinkedList*
+ 
+ s5.2 -> *Learn Doubly LinkedList*
+ 
+ s5.3 -> *Medium Problems of LL*
+ 
+ s5.4 -> *Medium Problems of DL*
+ 
+ s5.5 -> *Hard Problems of LL*
+ 
+ 
