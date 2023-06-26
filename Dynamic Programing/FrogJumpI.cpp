@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 //memoizition
 class Solution {
   public:
@@ -33,9 +36,9 @@ int frogJump(int n, vector<int> &heights)
   int one_jump, two_jump, res,i;
   for (i = 1; i < n; i++)
   { 
-       one_jump=dp[i-1]+abs(height[n]-height[n-1]);
+       one_jump=dp[i-1]+abs(heights[n]-heights[n-1]);
         if(n>1)
-         two_jump=dp[i-2]+abs(height[n]-height[n-2]);
+         two_jump=dp[i-2]+abs(heights[n]-heights[n-2]);
         else
          two_jump=INT_MAX;
         
