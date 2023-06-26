@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 //brutforce
 class Solution{
 public:	
@@ -28,8 +30,8 @@ public:
         return 0;
         if(dp[n]!=-1)
         return dp[n];
-        int pick=arr[n]+solver(arr,n-2);
-        int notPick=solver(arr,n-1);
+        int pick=arr[n]+solver(arr,dp,n-2);
+        int notPick=solver(arr,dp,n-1);
 
         return dp[n]=max(pick,notPick);
       }
@@ -50,7 +52,7 @@ public:
           int pick,notPick;
           for(int i=1;i<n;i++){
              if(i-2>=0)
-              pick=arr[i]+d[i-2];
+              pick=arr[i]+dp[i-2];
               else
               pick=arr[i];
               notPick=dp[i-1];
