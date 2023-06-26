@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 vector<int> arr(46, -1);
 class Solution
 {
