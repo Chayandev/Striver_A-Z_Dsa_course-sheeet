@@ -1,3 +1,6 @@
+
+#include<bits/stdc++.h>
+using namespace std;
 //memoizition
 class Solution {
   public:
@@ -9,14 +12,15 @@ class Solution {
        }
        int minCost = INT_MAX;
        for (int j = 1; j <= k;j++){
+            int jump;
             if(n-j>=0)
-            int jump = solver(height, dp, n - 1, k) + abs(height[i] - height[i - j]);
+            jump = solver(height, dp, n - 1, k) + abs(height[n] - height[n - j]);
             minCost = min(minCost, jump);
        }
        return dp[n] = minCost;
   }
     int minimizeCost(vector<int>& height, int n, int k) {
-          vector<int> dp[n, -1];
+          vector<int> dp(n, -1);
           return solver(height, dp, n-1, k);
     }
 };
